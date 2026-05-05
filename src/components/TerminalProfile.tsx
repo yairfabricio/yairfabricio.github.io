@@ -11,7 +11,7 @@ export function TerminalProfile({ language }: TerminalProfileProps) {
 
   useEffect(() => {
     const sequence = [
-      "root@fsociety:~# ./execute_whoami.sh",
+      "root@fanalitycs:~# ./execute_whoami.sh",
       language === 'EN' ? "Initiating query..." : "Iniciando consulta...",
       language === 'EN' ? "Bypassing firewalls... [OK]" : "Evadiendo firewalls... [OK]",
       language === 'EN' ? "Extracting user profile: YAIR_CUNO_ROJAS" : "Extrayendo perfil de usuario: YAIR_CUNO_ROJAS",
@@ -33,7 +33,7 @@ export function TerminalProfile({ language }: TerminalProfileProps) {
       "--- [ ACADEMIC_RECORDS ] ---",
       ...profileData[language].education.map(edu => `[*] ${edu.date} : ${edu.institution} -> ${edu.degree}`),
       " ",
-      "root@fsociety:~# await instruction_"
+      "root@fanalitycs:~# await instruction_"
     ];
 
     setLines([]); // Clear on language change

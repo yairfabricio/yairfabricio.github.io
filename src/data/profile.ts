@@ -50,7 +50,7 @@ export const profileData = {
         degree: "Ingeniería Industrial",
         date: "[ 2018 - 2023 ]"
       },
-      {
+      { 
         institution: "Platzi / DataCamp",
         degree: "Cursos de Data Analyst & Data Engineering",
         date: "[ 2022 - Presente ]"

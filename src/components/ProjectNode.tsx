@@ -50,7 +50,7 @@ export function ProjectNode({ project, onClick, isActive, language }: ProjectNod
         <Suspense fallback={null}>
           <Center>
             <Text3D
-              font="/helvetiker_bold.typeface.json"
+              font={`${import.meta.env.BASE_URL}helvetiker_bold.typeface.json`}
               size={2}
               height={0.4}
               curveSegments={12}
@@ -96,7 +96,7 @@ export function ProjectNode({ project, onClick, isActive, language }: ProjectNod
                 : 'bg-black/50 border-[#006611] text-[#006611]'
           }`}
         >
-          {project.title}
+          {project.title[language]}
         </div>
       </Html>
     </group>
