@@ -41,7 +41,7 @@ function App() {
       <div className="absolute top-0 left-0 w-full p-4 pointer-events-none z-10 flex justify-between items-center bg-[#000000cc] border-b border-[#333]">
         <div className="flex items-center gap-4">
           <h1 className="text-xl md:text-2xl font-bold tracking-tighter text-white glitch pointer-events-auto cursor-pointer" onClick={() => setShowProfile(!showProfile)}>
-            porfolio_data_analysis
+            portfolio_data_analysis
           </h1>
           <span className="hidden md:inline-block px-2 py-1 bg-[#E50914] text-white text-xs font-bold uppercase">{language === 'EN' ? 'Target' : 'Objetivo'}: Yair Cuno</span>
         </div>
