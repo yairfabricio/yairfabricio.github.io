@@ -17,12 +17,12 @@ export const profileData = {
     ],
     education: [
       {
-        institution: "Universidad Catolica de Santa Maria",
+        institution: "Universidad Andina del Cusco",
         degree: "Industrial Engineering",
         date: "[ 2018 - 2023 ]"
       },
       {
-        institution: "Platzi / DataCamp",
+        institution: "Tripleten",
         degree: "Data Analyst & Data Engineering Courses",
         date: "[ 2022 - Present ]"
       }
@@ -51,7 +51,7 @@ export const profileData = {
         date: "[ 2018 - 2023 ]"
       },
       { 
-        institution: "Platzi / DataCamp",
+        institution: "Tripleten",
         degree: "Cursos de Data Analyst & Data Engineering",
         date: "[ 2022 - Presente ]"
       }
@@ -59,7 +59,7 @@ export const profileData = {
   },
   techStack: {
     languages: ["Python", "SQL", "DAX"],
-    tools: ["Tableau", "Power BI", "Pandas", "Excel", "Git", "PostgreSQL"],
-    concepts: ["ETL", "Data Engineering", "AI automation","AI-Driven Development", "Agile Methodologies"]
+    tools: ["Tableau", "Power BI", "Pandas", "Excel", "Git", "PostgreSQL","GCP"],
+    concepts: ["ETL", "Big Query", "AI automation","AI-Driven Development", "Agile Methodologies"]
   }
 };
