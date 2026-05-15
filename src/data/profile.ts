@@ -24,7 +24,7 @@ export const profileData = {
       {
         institution: "Tripleten",
         degree: "Data Analyst & Data Engineering Courses",
-        date: "[ 2022 - Present ]"
+        date: "[ 2023 - 2024 ]"
       }
     ]
   },
@@ -53,7 +53,7 @@ export const profileData = {
       { 
         institution: "Tripleten",
         degree: "Cursos de Data Analyst & Data Engineering",
-        date: "[ 2022 - Presente ]"
+        date: "[ 2023 - 2024 ]"
       }
     ]
   },
